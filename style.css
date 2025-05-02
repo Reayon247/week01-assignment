@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 30px;
+  padding-left: 50px;
+  padding-top: 50px;
+  position: fixed;
+  z-index: 1;
+}
+
+.navBar {
+  width: 500px;
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.headlinks {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: sans-serif;
+  align-self: center;
+  color: white;
+}
+
+.cat {
+  position: fixed;
+  z-index: 1;
+  right: 50px;
+  bottom: 50px;
+  height: 400px;
+}
+.cattalk {
+  position: absolute;
+  bottom: 400px;
+  right: 200px;
+  width: 400px;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 40px;
+  font-size: 3rem;
+}
+
+#divtop {
+  background-image: url("Space\ image\ 1.jpg");
+  background-size: cover;
+  color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.sectionTop {
+  position: absolute;
+  bottom: 300px;
+  left: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#divmid {
+  background-image: url("space\ image\ 2.jpg");
+  background-size: cover;
+  color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.sectionMid {
+  position: absolute;
+  bottom: 300px;
+  left: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#divbot {
+  background-image: url("space\ image\ 3.jpg");
+  background-size: cover;
+  color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.sectionBot {
+  position: absolute;
+  bottom: 300px;
+  left: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+h3 {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+.readmore {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  height: 80px;
+  width: 400px;
+  font-family: sans-serif;
+  background-color: transparent;
+  border: 5px solid aliceblue;
+  padding: 1.3rem;
+  padding-left: 2rem;
+}
+
+.readmore:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+footer {
+  padding: 50px;
+  color: rgb(190, 190, 190);
+  text-align: center;
+  font-size: 2rem;
+}
