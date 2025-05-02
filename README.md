@@ -2,6 +2,8 @@
 
 Week 1's tech educators coding assignment
 
+please click anywhere on the page before petting the cat
+
 ## what i achieved
 
 I believe i achieved all the standard goals
@@ -15,6 +17,8 @@ Im really happy with house this turned out, as you can tell I heavily used the s
 I spent 45 minutes trying to figure out why my javascript wasnt working, it was because i missed out defer, I wont be doing that again!!
 
 I added the cat because ever since i saw the lesson about events and functions thats all i could think about, that i could implement that. I bet there is a much better way i could of done it but what ive done works
+
+I tried looking at getting past chromes autoplay stuff so you dont have to click the website before audio plays with the cat, but its way too complicated right now, especially since starting this course is all the experience ive got with coding right now!
 
 ## references
 
